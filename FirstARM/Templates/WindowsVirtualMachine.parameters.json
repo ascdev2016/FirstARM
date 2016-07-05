@@ -10,6 +10,9 @@
         },
         "adminPassword": {
             "value": "Herzblut$$16@dg"
+        },
+        "_artifactsLocation": {
+            "value": "https://raw.githubusercontent.com/ascdev2016/FirstARM/DSC/"
         }
     }
 }
