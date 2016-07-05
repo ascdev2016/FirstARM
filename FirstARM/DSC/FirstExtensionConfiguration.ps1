@@ -1,4 +1,4 @@
-Configuration MyFile
+Configuration FirstExtensionConfiguration
 {
 
 Param ( [string] $nodeName )
@@ -7,7 +7,7 @@ Import-DscResource -ModuleName PSDesiredStateConfiguration
 
 Node $nodeName
   {
-		File MyFile {
+		File FirstExtensionConfiguration {
 
 				DestinationPath = 'C:\Skripte\MyDSCFile.txt'
 				Ensure = 'Present'

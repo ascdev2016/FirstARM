@@ -7,6 +7,9 @@
         },
         "dnsNameForPublicIP": {
             "value": "ascdsc2016test"
+        },
+        "adminPassword": {
+            "value": "Herzblut$$16@dg"
         }
     }
 }
