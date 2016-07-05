@@ -7,12 +7,12 @@ Import-DscResource -ModuleName PSDesiredStateConfiguration
 
 Node $nodeName
   {
-    File MyFile {
+		File MyFile {
 
-            DestinationPath = 'C:\Skripte\MyDSCFile.txt'
-            Ensure = 'Present'
-            Type = 'File'
-            Contents = 'DSC Rocks!'
-        }
-}
+				DestinationPath = 'C:\Skripte\MyDSCFile.txt'
+				Ensure = 'Present'
+				Type = 'File'
+				Contents = 'DSC Rocks!'
+			}
+		}
 	}
